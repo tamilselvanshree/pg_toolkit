@@ -1,0 +1,11 @@
+# ~/.pg_toolkit.conf  -  copy here and run: chmod 600 ~/.pg_toolkit.conf
+# Plain key=value. This file is parsed, never executed. Do NOT put passwords here:
+# passwords belong in ~/.pgpass (host:port:database:user:password, chmod 600).
+BACKUP_DIR=/pgbackup/dumps
+COMPRESS_LEVEL=6
+DEFAULT_JOBS=4
+RETENTION_DAYS=14
+ALLOWED_GROUP=pgtoolkit
+PGHOST=localhost
+PGPORT=5432
+PGUSER=postgres
